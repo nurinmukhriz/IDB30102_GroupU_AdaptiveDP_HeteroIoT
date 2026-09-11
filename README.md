@@ -187,3 +187,31 @@ The repository contains or will contain the following technical components:
 - GitHub
 - Jupyter Notebook / Python environment
 - Virtual environment (venv or Conda)
+
+---
+
+## Preliminary Code
+
+A preliminary pseudocode has been developed to illustrate the proposed logic of the Adaptive Differential Privacy (ADP) module within the Federated Learning process.
+
+The pseudocode covers the main processing stages, including:
+
+- Local model training
+- Device capability assessment
+- Data heterogeneity assessment
+- Adaptive privacy parameter selection
+- Gradient clipping
+- Differential Privacy noise perturbation
+- Federated Averaging (FedAvg)
+- Global model distribution
+- Evaluation of privacy, model performance, and resource efficiency
+
+The preliminary algorithm is available in:
+
+[**Preliminary Adaptive Differential Privacy Algorithm**](docs/preliminary_algorithm.md)
+
+> The pseudocode represents the preliminary design of the proposed solution and may be refined during the implementation phase.
+
+### Execution
+
+The preliminary algorithm is presented as pseudocode and therefore does not require execution at this stage. Executable Python code will be developed during the implementation phase.
