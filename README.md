@@ -141,7 +141,7 @@ The evaluation will determine whether adaptive privacy configuration provides a 
 
 The proposed architecture integrates Adaptive Differential Privacy into the Federated Learning workflow.
 
-![Proposed Adaptive DP-FL Architecture](docs/architecture/adaptive-dp-architecture.png)
+![Proposed Adaptive DP-FL Architecture](docs/architecture.png)
 
 ---
 
