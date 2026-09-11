@@ -1,3 +1,1 @@
-To systematically execute DSRM approach, this study follows the six phases of problem identification and motivation, definition of solution objectives, artefact design and development, demonstration, evaluation, and communication. Each phase is adapted to the specific activities of this research rather than being presented as generic DSRM. Figure 3.1 illustrates the overall methodology structure, while Table 3.1 summarises the activities and expected outputs of each phase. This structure provided a clear link between the research problem, the proposed Adaptive DP module, it proof-of-concept implementation, and the evaluation of privacy, model performance and resource efficiency. 
-
-<img width="202" height="357" alt="image" src="https://github.com/user-attachments/assets/132fa6cd-6d13-4e98-8956-d03ce020bee4" />
+<img width="255" height="431" alt="image" src="https://github.com/user-attachments/assets/6ea8473d-ed40-41eb-82d6-ceb0e1158635" />
