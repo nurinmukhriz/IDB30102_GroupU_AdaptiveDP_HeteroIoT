@@ -1,6 +1,7 @@
 import torch
 
 
+# Step 1: Clip the model update
 def clip_update(update, max_norm=1.0):
     norm = torch.norm(update)
 
@@ -10,6 +11,17 @@ def clip_update(update, max_norm=1.0):
     return update
 
 
+# Step 2: Select the noise level based on privacy level
+def select_noise_scale(privacy_level):
+    if privacy_level == "high":
+        return 0.5
+    elif privacy_level == "low":
+        return 0.1
+    else:
+        return 0.3
+
+
+# Step 3: Add differential privacy noise
 def add_dp_noise(update, noise_scale):
     noise = torch.normal(
         mean=0.0,
@@ -20,15 +32,14 @@ def add_dp_noise(update, noise_scale):
     return update + noise
 
 
+# Step 4: Apply adaptive differential privacy
 def apply_adaptive_dp(update, privacy_level="medium"):
-    if privacy_level == "high":
-        noise_scale = 0.5
-    elif privacy_level == "low":
-        noise_scale = 0.1
-    else:
-        noise_scale = 0.3
-
     clipped_update = clip_update(update)
+
+    noise_scale = select_noise_scale(
+        privacy_level
+    )
+
     protected_update = add_dp_noise(
         clipped_update,
         noise_scale
