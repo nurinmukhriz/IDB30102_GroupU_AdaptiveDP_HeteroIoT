@@ -1,3 +1,23 @@
+Expected Output
+
+Baseline Comparison
+
+The proposed ADP approach will be compared with Fixed DP-FedAvg, where the same privacy setting is applied across all simulated clients. Both approaches will use the same dataset, FL model, number of clients, data distribution, and experimental environment to ensure a fair comparison. The main difference is that ADP adjusts privacy settings according to client conditions, while Fixed DP maintains a uniform privacy configuration.
+
+Table 3.3: Baseline Comparison
+
+| Aspect | Fixed DP-FedAvg | Adaptive DP-FedAvg |
+|---|---|---|
+| Privacy setting | Same for all clients | Adjusted by client conditions |
+| Device capabilities | Not considered | Considered |
+| Resources | Not considered | Considered |
+| Data distribution | Same non-IID setup | Same non-IID setup |
+| Dataset | Same | Same |
+| FL model | Same | Same |
+| Number of simulated IoT clients | Same | Same |
+| Environment | Same | Same |
+
+
 Evaluation Metrics
 
 | Category | Evaluation Metric | Purpose |
@@ -10,8 +30,6 @@ Evaluation Metrics
 | Resource Efficiency | Computation Time | Measures the time required for model training and processing. |
 | Resource Efficiency | Communication Overhead | Measures the communication cost during Federated Learning. |
 | Resource Efficiency | Latency | Measures the delay during the Federated Learning process. |
-
-
 
 
 Explanation of Expected Research Outcomes
