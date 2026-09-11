@@ -1,0 +1,2 @@
+3.6.3	Non-IID Data Distribution
+The processed dataset will be partitioned among simulated clients to create non-IID data distributions. Clients will receive different proportions of attack types and sample sizes, with some clients containing predominantly one attack type, mixed data, or limited samples. This distribution represents statistical heterogeneity among IoT clients and will be used alongside simulated device heterogeneity to evaluate the proposed ADP module.
