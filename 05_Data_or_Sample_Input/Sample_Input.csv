@@ -12,3 +12,5 @@ Client_04,Normal,None,0
 Client_04,Attack,Attack_Type_A,1
 Client_05,Normal,None,0
 Client_05,Attack,Mixed,1
+
+*This is an illustrative sample dataset created to demonstrate the proposed data structure and simulated client distribution. It is not extracted from the final dataset.
