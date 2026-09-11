@@ -1,4 +1,4 @@
-1.Proposed Dataset
+1. Proposed Dataset
 
 The proposed proof-of-concept evaluation will use a publicly available IoT cybersecurity dataset to evaluate the proposed Adaptive Differential Privacy (ADP) approach in a heterogeneous Federated Learning environment.
 
@@ -14,7 +14,7 @@ The final dataset will be selected based on:
 - Suitability for non-IID partitioning across simulated clients
 
 
-1.2Intended Use
+1.2 Intended Use
 
 The selected dataset will be used as input for the proposed Federated Learning experiment.
 
