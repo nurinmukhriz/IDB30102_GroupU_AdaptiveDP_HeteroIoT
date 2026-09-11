@@ -12,6 +12,8 @@ Evaluation Metrics
 | Resource Efficiency | Latency | Measures the delay during the Federated Learning process. |
 
 
+
+
 Explanation of Expected Research Outcomes
 
 The proposed ADP approach is expected to provide a better balance trade-off between privacy protection, model performance, and resource efficiency than Fixed DP under heterogeneous IoT conditions. The evaluation will determine whether adapting privacy settings to client conditions can reduce the performance and resource costs associated with uniform privacy protection while maintaining an appropriate level of privacy.
