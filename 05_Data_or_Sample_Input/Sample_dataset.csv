@@ -1,0 +1,14 @@
+Client_ID,Traffic_Type,Attack_Type,Label
+Client_01,Normal,None,0
+Client_01,Attack,Attack_Type_A,1
+Client_01,Attack,Attack_Type_A,1
+Client_02,Normal,None,0
+Client_02,Normal,None,0
+Client_02,Attack,Attack_Type_B,1
+Client_03,Normal,None,0
+Client_03,Attack,Attack_Type_C,1
+Client_03,Attack,Attack_Type_C,1
+Client_04,Normal,None,0
+Client_04,Attack,Attack_Type_A,1
+Client_05,Normal,None,0
+Client_05,Attack,Mixed,1
