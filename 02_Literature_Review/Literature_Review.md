@@ -93,7 +93,7 @@ Overall, existing studies address privacy adaptation, resource constraints, and 
 | Hidayat et al. (2023) | Resource-constrained IoT | FL | DP + compressive sensing | No | Device/resource | Yes | Privacy setting not client-adaptive |
 | Wang et al. (2024) | IoT | RPIFL | Adaptive DP | Yes | Limited | Yes | Adaptation focuses on privacy/reliability |
 | Fang et al. (2024) | Healthcare IoT | FL | LIP-adaptive DP | Yes | Limited | Limited | Focuses on gradient leakage |
-| Kumar et al. (2025) | IoT / wearable | Hierarchical FL | DP + HE | Limited | Yes | Yes | No adaptive privacy mechanism |
+| Kumar et al. (2026) | IoT | Federated Learning | Blockchain + privacy-preserving FL | No | Yes | Limited | Survey paper; highlights scalability and computational overhead |
 | Nambiar et al. (2026) | Energy-constrained IoT | Energy-Aware FL | - | No | Yes | Yes | Privacy does not address |
 | Saidi et al. (2026) | Healthcare IoT | FL | DP + HE | Tunable | Yes / non-IID | Partial | Privacy-sharing remains constrained by overhead |
 | Arafeh et al. (2023) | IoT | C-SplitFed / Split FL + FedAsync | - | No | Yes / non-IID | Stragglers | Simulated heterogeneity; privacy not directly measured |
